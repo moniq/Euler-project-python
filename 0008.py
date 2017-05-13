@@ -1,5 +1,6 @@
 #==================
 # ADJACENT DIGITS
+# https://projecteuler.net/problem=8
 #==================
 from functools import reduce
 import profile
