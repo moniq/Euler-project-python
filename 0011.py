@@ -1,3 +1,4 @@
+# https://projecteuler.net/problem=11
 from functools import reduce
 from operator import mul
 import profile
