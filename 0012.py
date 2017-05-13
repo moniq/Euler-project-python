@@ -1,3 +1,4 @@
+# https://projecteuler.net/problem=12
 import itertools
 from math import sqrt
 import profile
