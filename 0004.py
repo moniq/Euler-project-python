@@ -1,5 +1,6 @@
 #=====================================
 # PALINDROMIC NUMBER e.g. 9009, 90109
+# https://projecteuler.net/problem=4
 #=====================================
 import profile
 
