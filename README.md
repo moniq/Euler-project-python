@@ -1,2 +1,2 @@
-# Euler-project-python-
+# Euler-project-python
 https://projecteuler.net/ solutions
