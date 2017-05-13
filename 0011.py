@@ -37,12 +37,12 @@ v_matrix = [list(map(int, matrix[i*n: i*n+n]))
 h_matrix = list(zip(*(v_matrix)))
 
 # diagonal - lines: left-top to right-bottom,
-#starts at left-bottom corner
+# starts at left-bottom corner
 dr_matrix = list(zip(*[[0, ]*(n-(i+1)) + line + [0, ]*i
             for i, line in enumerate(v_matrix)]))
 
 # diagonal - lines: right-top to left-bottom,
-#starts at right-botom corner
+# starts at right-botom corner
 dl_matrix = list(zip(*[[0, ]*(n-(i+1)) + line[::-1] + [0, ]*i
                for i, line in enumerate(v_matrix)]))
 
